@@ -18,3 +18,10 @@ class Carro:
 # Criando uma instância da classe Carro
 meu_carro = Carro("Toyota", "Corolla")
 print(meu_carro.descricao())  # Saída: Este carro é um Toyota Corolla.
+
+#o conceito por trás de uma fstring é que ela consegue por variáveis e outras funções ou métodos dentro de uma mensagem ou dependendo num tipo variável, lembrando que o f vem de format.
+
+print('Hello world')
+
+data = "18.9.2024"
+print(f'Hoje é {data}.')
